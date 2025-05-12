@@ -23,4 +23,5 @@ Proyek ini merupakan bagian dari Virtual Internship Experience (VIX) bersama Ban
 - Kode SQL
 
 ## Author
-[Nama Lengkap]
+Shevina Nur KUsnadi
+Contact: shevinank@gmail.com
