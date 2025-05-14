@@ -12,18 +12,6 @@ Proyek ini merupakan tugas akhir dari program **Virtual Internship Experience** 
 
 ---
 
-## Struktur Proyek
-
-| Folder / File | Keterangan |
-|---------------|------------|
-| `data/` | Berisi dataset mentah atau contoh data (Customers, Orders, Products, Product Categories) |
-| `sql/` | Berisi query SQL untuk membersihkan dan menggabungkan data |
-| `visuals/` | Berisi screenshot dari dashboard akhir & insight visual |
-| `presentation/` | File presentasi tugas akhir (PPTX) |
-| `README.md` | Dokumentasi proyek ini |
-
----
-
 ## Ringkasan Studi Kasus
 
 Sebagai BI Analyst di PT Sejahtera Bersama, tugas kami adalah:
@@ -36,11 +24,11 @@ Sebagai BI Analyst di PT Sejahtera Bersama, tugas kami adalah:
 
 ---
 
-## Hasil Dashboard
+## Hasil Analisis
 
-🔗 [Klik di sini untuk melihat dashboard](https://link-dashboard-lookerstudio.com)
+🔗 [Video Presentasi](https://drive.google.com/file/d/1YQI3ClcaQUbyJckuMRUk9VHkbaOgnDT8/view?usp=sharing)
 
-![Preview Dashboard](visuals/dashboard_preview.png)
+🔗 [Visualisasi Dashboard](https://link-dashboard-lookerstudio.com)
 
 ---
 
