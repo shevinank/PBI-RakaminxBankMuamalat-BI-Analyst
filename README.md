@@ -28,7 +28,7 @@ Sebagai BI Analyst di PT Sejahtera Bersama, tugas kami adalah:
 
 🔗 [Video Presentasi](https://drive.google.com/file/d/1YQI3ClcaQUbyJckuMRUk9VHkbaOgnDT8/view?usp=sharing)
 
-🔗 [Visualisasi Dashboard](https://link-dashboard-lookerstudio.com)
+🔗 [Visualisasi Dashboard](https://lookerstudio.google.com/u/0/reporting/e07496aa-29a1-484e-84ff-69f379aedfbb/page/p_rrap09vdsd?pli=1)
 
 ---
 
