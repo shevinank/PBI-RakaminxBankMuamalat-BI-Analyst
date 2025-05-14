@@ -1,27 +1,59 @@
-# PBI-RakaminxBankMuamalat-BI-Analyst
-# BI Analyst – PT Sejahtera Bersama (VIX Bank Muamalat)
+# Dashboard Digital User Churn – Final Task VIX BI Analyst Bank Muamalat
 
-## Deskripsi Proyek
-Proyek ini merupakan bagian dari Virtual Internship Experience (VIX) bersama Bank Muamalat. Saya berperan sebagai Business Intelligence Analyst dan bertugas untuk menganalisis data transaksi penjualan PT Sejahtera Bersama.
+Proyek ini merupakan tugas akhir dari program **Virtual Internship Experience** yang diselenggarakan oleh **Bank Muamalat** dengan **Rakamin Academy**. Tugas ini berfokus pada analisis data transaksi penjualan dari berbagai kota dan kategori produk, serta pembuatan dashboard interaktif untuk menghasilkan insight dan strategi bisnis.
 
-## Tools yang Digunakan
-- Google BigQuery
-- Microsoft Excel
-- Looker Studio
-- GitHub
+---
 
-## Langkah-Langkah:
-1. Menggabungkan data dari 4 tabel utama menggunakan BigQuery dan menyusun master table.
-2. Mengekspor data dalam format CSV.
-3. Membuat visualisasi di Looker Studio.
-4. Menganalisis performa penjualan dan memberikan rekomendasi bisnis.
+## Tools dan Teknologi yang Digunakan
 
-## Output
-- Tabel Master Transaksi (`data/master_transaction.csv`)
-- Dashboard Visualisasi (lihat folder `dashboard`)
-- Presentasi PDF
-- Kode SQL
+- **Google BigQuery** – Untuk ekstraksi dan transformasi data
+- **Microsoft Excel** – Untuk pembersihan data & pembuatan tabel master
+- **Looker Studio** – Untuk pembuatan dashboard visual interaktif
 
-## Author
-Shevina Nur KUsnadi
-Contact: shevinank@gmail.com
+---
+
+## Struktur Proyek
+
+| Folder / File | Keterangan |
+|---------------|------------|
+| `data/` | Berisi dataset mentah atau contoh data (Customers, Orders, Products, Product Categories) |
+| `sql/` | Berisi query SQL untuk membersihkan dan menggabungkan data |
+| `visuals/` | Berisi screenshot dari dashboard akhir & insight visual |
+| `presentation/` | File presentasi tugas akhir (PPTX) |
+| `README.md` | Dokumentasi proyek ini |
+
+---
+
+## Ringkasan Studi Kasus
+
+Sebagai BI Analyst di PT Sejahtera Bersama, tugas kami adalah:
+
+- Mengolah data dari 4 tabel: `Customers`, `Orders`, `Product Categories`, dan `Products`
+- Membuat tabel master berdasarkan urutan tanggal transaksi, yang memuat:
+  - `cust_email`, `cust_city`, `order_date`, `order_qty`, `product_name`, `product_price`, `category_name`, dan `total_sales`
+- Membangun **dashboard interaktif** menggunakan Looker Studio
+- Memberikan **rekomendasi berbasis data** untuk menjaga dan meningkatkan penjualan
+
+---
+
+## Hasil Dashboard
+
+🔗 [Klik di sini untuk melihat dashboard](https://link-dashboard-lookerstudio.com)
+
+![Preview Dashboard](visuals/dashboard_preview.png)
+
+---
+
+## Insight & Rekomendasi Bisnis
+
+1. **Bundling produk mahal & murah** → Meningkatkan rata-rata nilai transaksi
+2. **Promosi di kota besar** → Menjaga loyalitas pelanggan utama
+3. **Analisis musiman & promo akhir tahun** → Mengatasi penurunan penjualan tahunan
+4. **Segmentasi pelanggan untuk email marketing** → Meningkatkan efektivitas kampanye
+5. **Analisis performa produk lemah** → Ganti atau tingkatkan kategori yang buruk
+6. **Dorong repeat order** → Berikan insentif ke pelanggan baru & tidak aktif
+
+---
+
+## Sekian dan Terima Kasih
+
